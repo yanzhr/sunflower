@@ -14,4 +14,10 @@ public class HelloWorldController {
         return "<b>Hello World !!!</b>";
     }
 
+    @GetMapping("sayLove")
+    public String sayLove(){
+        System.out.println("I LOVE JUANJUAN !!!");
+        return "<h1>I LOVE JUANJUAN !!!</h1>";
+    }
+
 }
